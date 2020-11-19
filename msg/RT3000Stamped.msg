@@ -10,3 +10,6 @@ float64 Roll
 
 float64 LocalX
 float64 LocalY
+float64 LocalYaw
+float64 LocalVx
+float64 LocalVy
