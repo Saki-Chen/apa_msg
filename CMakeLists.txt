@@ -55,6 +55,7 @@ add_message_files(
   ChasisStatusStamped.msg
   ChasisPedalStamped.msg
   ChasisSpeedStamped.msg
+  RT3000Stamped.msg
 )
 
 ## Generate services in the 'srv' folder
