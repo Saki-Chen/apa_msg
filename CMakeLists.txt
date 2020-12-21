@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  sensor_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -57,6 +58,10 @@ add_message_files(
   ChasisSpeedStamped.msg
   RT3000Stamped.msg
   VehicleOdomEst2D.msg
+  BBox.msg
+  BBoxArrayStamped.msg
+  LidarObject2D.msg
+  LidarObject2DArrayStamped.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -77,6 +82,7 @@ add_message_files(
 generate_messages(
   DEPENDENCIES
   std_msgs
+  sensor_msgs
 )
 
 ################################################
