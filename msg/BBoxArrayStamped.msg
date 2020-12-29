@@ -1,2 +1,2 @@
 std_msgs/Header header
-apa_msgs/BBox[] BBoxArray
+apa_msgs/BBox[] BBoxes
