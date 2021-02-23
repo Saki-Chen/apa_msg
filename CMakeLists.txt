@@ -64,6 +64,7 @@ add_message_files(
   LidarObject2D.msg
   LidarObject2DArrayStamped.msg
   SlotInfoStamped.msg
+  CloudInfo.msg
 )
 
 ## Generate services in the 'srv' folder
