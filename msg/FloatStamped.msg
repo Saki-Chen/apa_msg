@@ -1,2 +1,2 @@
 std_msgs/Header header
-apa_msgs/BBox[] BBoxes
+float64 value

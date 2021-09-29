@@ -1,6 +1,0 @@
-sensor_msgs/PointCloud2 PointsFull
-sensor_msgs/PointCloud2 PointsSharp
-sensor_msgs/PointCloud2 PointsFlat
-
-geometry_msgs/Pose Odometry
-geometry_msgs/Twist LocalTwist
