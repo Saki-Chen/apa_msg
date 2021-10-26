@@ -1,5 +1,5 @@
 std_msgs/Header header
-float64 FL
-float64 FR
-float64 RL
-float64 RR
+int64 FL
+int64 FR
+int64 RL
+int64 RR
